@@ -1,0 +1,86 @@
+
+.form-inline .form-control {
+    display: inline-block;
+    /*width: 1000px!Important;*/
+    vertical-align: middle;
+}
+
+
+.img-bx{
+
+    height: 150px;
+}
+.img-bx p {
+  margin: 1rem;
+
+    /* IMPORTANTE */
+    text-align: center!Important;
+}
+
+
+
+/*iconos*/
+.bucket
+{
+  text-align: center;
+  padding: 15px;
+  position: relative;
+
+}
+.left-div
+{
+  display: inline-block;
+  width: 300px;
+  overflow:hidden;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px;
+  vertical-align: top;
+  z-index: 1;
+}
+.right-div
+{
+  display: inline-block;
+  max-width: 150px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 3px;
+  margin: 15px;
+}
+.left-text, .right-text
+{
+  font: 14px 'Source Code Pro', monospace;
+	color: #333;
+}
+@media screen and (max-width: 600px)
+{
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+}
+.card-img a{
+    color:white;
+}
+
+.card-img{
+    z-index: 1;
+    display:inline-block;
+    position: absolute;
+    margin-top: -200px;
+    width: 280px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    opacity:0;
+}
+.left-div{
+      display: inline-block;
+
+}
+.left-div:hover  .card-img{
+opacity:1;
+
+}
